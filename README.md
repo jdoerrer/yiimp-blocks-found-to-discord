@@ -1,9 +1,6 @@
 # What it does
 
 Poll a [Yiimp pool] block found result page (usually on /site/found\_results) and post a message to [Discord] chat room.
-It also feature a currency conversion to add blocks value in BTC and USDT (USD parity) using [stock.exchange] and [Cryptopia] markets API.
-
-Single file app all written in Python 3 asyncio, it should be very easy to modify to use additionnal markets API and or different endpoints.
 
 
 # System service installation
@@ -15,7 +12,7 @@ sudo apt install python3-aiohttp python3-bs4 python3-html5lib
 
 2. Install script
 ```
-sudo wget https://raw.githubusercontent.com/eLvErDe/yiimp-blocks-found-to-discord/master/yiimp-blocks-found-to-discord.py -O /usr/local/bin/yiimp-blocks-found-to-discord.py
+sudo wget https://raw.githubusercontent.com/jdoerrer/yiimp-blocks-found-to-discord/master/yiimp-blocks-found-to-discord.py -O /usr/local/bin/yiimp-blocks-found-to-discord.py
 sudo chmod 0755 /usr/local/bin/yiimp-blocks-found-to-discord.py
 ```
 
